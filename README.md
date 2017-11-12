@@ -5,6 +5,7 @@
 Um exemplo básico ~muito básico mesmo~ da utilização de `PHP com PDO`. São arquivos `.php` e mais com script `.sql` (para criação da tabela usada nos exemplos).
 As rotinas são as seguintes:
 * [connection](#connection)
+* [table](#table)
 * [create](#create)
 * [read](#read)
 * [update](#update)
@@ -28,6 +29,19 @@ try {
 }
 
 ``` 
+
+# table #
+Abaixo segue `script` para criação da tabela usada no exemplo.
+```sql
+DROP TABLE IF EXISTS `exercicio`.`pessoa`;
+CREATE TABLE  `exercicio`.`pessoa` (
+  `idpessoa` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  PRIMARY KEY (`idpessoa`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+
+```
 
 # create #
 Após feita a conexão, vamos a criação do registro.
