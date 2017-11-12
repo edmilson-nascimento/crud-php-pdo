@@ -96,9 +96,8 @@ if (isset($conn)) {
     $update->closeCursor();
     
     $conn = null;
-} ```
-
-
+} 
+```
 
 # update #
 A atualizando será feita no `código` abaixo, tentando manter de forma mais simples e objetiva.
