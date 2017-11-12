@@ -100,9 +100,8 @@ if (isset($conn)) {
 ```
 
 # update #
-A atualizando será feita no `código` abaixo, tentando manter de forma mais simples e objetiva.
+A atualização será feita no `código` abaixo, tentando ater a forma mais simples e objetiva.
 ```php
-
 include_once 'connection.php';
 
 if (isset($conn)) {
@@ -123,10 +122,7 @@ if (isset($conn)) {
     
     $conn = null;
 }
-
 ```
-
-
 
 # delete #
 Abaixo a opção de eliminar registros. ~Mas ninguem usa isso porque qualquer um deve pensar em desativar ao invés de eliminar registros para manter histórico.~
