@@ -127,7 +127,6 @@ if (isset($conn)) {
 # delete #
 Abaixo a opção de eliminar registros. ~Mas ninguem usa isso porque qualquer um deve pensar em desativar ao invés de eliminar registros para manter histórico.~
 ```php
-
 include_once 'connection.php';
 
 if (isset($conn)) {
