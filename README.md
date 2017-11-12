@@ -50,9 +50,9 @@ include_once 'connection.php';
 
 if (isset($conn)) {
     
-    // $stmt = $con->prepare("INSERT INTO PESSOA (nome, email) VALUES (?, ?)");
-    // $stmt->bindParam(1, $nome);
-    // $stmt->bindParam(2, $email);
+    // $insert = $conn->prepare("INSERT INTO PESSOA (nome, email) VALUES (?, ?)");
+    // $insert->bindParam(1, $nome);
+    // $insert->bindParam(2, $email);
     
     $insert = $conn->prepare("INSERT INTO PESSOA (nome, email) VALUES (:nome, :email)");
     $insert->bindParam(':nome', $nome);
@@ -67,7 +67,6 @@ if (isset($conn)) {
     
     $conn = null;
 }
-
 ```
 
 
