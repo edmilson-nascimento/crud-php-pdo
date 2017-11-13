@@ -4,15 +4,15 @@ include_once 'connection.php';
 
 if (isset($conn)) {
     
-    $update = $conn->prepare('delete from pessoa where idpessoa = ?;');
+    $delete = $conn->prepare('delete from pessoa where idpessoa = ?;');
     
-    $update->bindParam(1, $id, PDO::PARAM_INT);
+    $delete->bindParam(1, $id, PDO::PARAM_INT);
     
     $id = 10 ;
     
-    $update->execute();
+    $delete->execute();
     
-    $update->closeCursor();
+    $delete->closeCursor();
     
     $conn = null;
 }

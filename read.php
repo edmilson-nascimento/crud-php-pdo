@@ -18,7 +18,7 @@ if (isset($conn)) {
         print $row['email'] . "<br/>";
     }
     
-    $update->closeCursor();
+    $read->closeCursor();
     
     $conn = null;
 }

@@ -17,7 +17,7 @@ if (isset($conn)) {
     
     $insert->execute();
     
-    $update->closeCursor();
+    $insert->closeCursor();
     
     $conn = null;
 }
