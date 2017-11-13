@@ -2,7 +2,10 @@
 
 [![N|Solid](https://www.atlantasky.com/wp-content/uploads/2013/08/PHP-Mysql.png)](#)
 
-Um exemplo básico ~muito básico mesmo~ da utilização de `PHP com PDO`. São arquivos `.php` e mais com script `.sql` (para criação da tabela usada nos exemplos). O conteúdo foi feito com base no [artigo do **devmedia**](https://www.devmedia.com.br/introducao-ao-php-pdo/24973)
+Um exemplo básico ~muito básico mesmo~ da utilização de `PHP com PDO`. São arquivos `.php` e mais com script `.sql` (para criação da tabela usada nos exemplos). 
+
+O conteúdo foi feito com base no [artigo do **devmedia**](https://www.devmedia.com.br/introducao-ao-php-pdo/24973)
+
 As rotinas são as seguintes:
 * [connection](#connection)
 * [table](#table)
