@@ -65,7 +65,7 @@ if (isset($conn)) {
     
     $insert->execute();
     
-    $update->closeCursor();
+    $insert->closeCursor();
     
     $conn = null;
 }
@@ -93,7 +93,7 @@ if (isset($conn)) {
         print $row['email'] . "<br/>";
     }
     
-    $update->closeCursor();
+    $read->closeCursor();
     
     $conn = null;
 } 
