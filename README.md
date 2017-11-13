@@ -27,7 +27,6 @@ try {
 } catch (PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
-
 ``` 
 
 # table #
@@ -73,8 +72,6 @@ if (isset($conn)) {
 # read #
 Fazendo a leitura do arquivo, e reforço que ~esta tudo zuado~ são dados de fictícios.
 ```php
-
-
 include_once 'connection.php';
 
 if (isset($conn)) {
