@@ -12,7 +12,7 @@ if (isset($conn)) {
     
     $id    = 10 ;
     $nome  = "Ana";
-    $email = "outro@kindle.com";
+    $email = "ana.carolina@kindle.com";
     
     $update->execute();
     
